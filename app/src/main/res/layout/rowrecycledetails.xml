@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="3dp"
+    android:background="@drawable/rowshape" android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <com.daimajia.swipe.SwipeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rowswipe"
+        android:background="@drawable/rowshape"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/background"
+            android:paddingStart="4dp"
+            android:layoutDirection="ltr"
+            android:background="@drawable/rowshape"
+            android:layout_height="110dp">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/xsign"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/deletesign"
+                android:layout_centerVertical="true"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/quedeleteitem"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/xsign"
+                android:layout_toRightOf="@id/xsign"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:id="@+id/deleterow"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:fontFamily="serif"
+                android:background="@color/appcolor"
+                android:text="@string/ansdeleteitem"
+                android:layout_centerVertical="true"
+
+                android:layout_height="50dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/rowshape"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/lipton"
+                android:background="@drawable/dashedline"
+                android:padding="5dp"
+                android:id="@+id/productimgd"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/large"
+                    android:id="@+id/nameproductd"
+                    android:textColor="@color/black"
+                    android:layout_gravity="top"
+                    android:text="لحمد لله رب العالمين"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="@string/unitprice"
+                        android:textSize="@dimen/medium"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/medium"
+                        android:id="@+id/unitpricecd"
+                        android:text="50"
+
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom"
+                    android:textSize="@dimen/medium"
+                    android:id="@+id/numberproductd"
+                    android:text="لحمد لله رب العالمين"
+                    android:textColor="@color/black"
+                    android:layout_margin="3dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_weight="2.2"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1.2"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:layout_height="0dp">
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:text="@string/items"
+                         android:textSize="@dimen/medium"
+                         android:textColor="@color/black"
+                         android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/numitemsd"
+                        android:textSize="@dimen/small"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:id="@+id/totalitemscd"
+                    android:textSize="@dimen/large"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/dashedline"
+                    android:layout_weight="1.6"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.daimajia.swipe.SwipeLayout>
+
+</LinearLayout>

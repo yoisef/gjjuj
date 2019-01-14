@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/appcolor"
+    android:layout_height="match_parent"
+    tools:context=".Cashiery.Launcher_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/gradientblue2"
+            android:layout_weight="1.8"
+
+            >
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/appcolor"
+            android:layout_weight="2"
+
+            ></RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/whitesqure"
+                android:id="@+id/logoo"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:src="@drawable/logb"
+                    android:layout_gravity="center"
+                    android:layout_height="100dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_height="0dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="5dp"
+                android:elevation="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="250dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:background="@drawable/squarewhate"
+                    android:layout_height="220dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/medium"
+                        android:layout_marginStart="3dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="@string/phonenumber"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="3dp"
+
+
+
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.hbb20.CountryCodePicker
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            app:ccp_defaultNameCode="EG"
+                            app:ccp_showFullName="false"
+                            app:ccpDialog_showTitle="false"
+                            app:ccp_showNameCode="false"
+                            app:ccp_showFlag="false"
+                            android:id="@+id/logcodepicker"
+                            />
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/logphone"
+                            android:textColor="@color/black"
+                            android:inputType="phone"
+                            android:drawableEnd="@drawable/phone"
+                            android:layout_gravity="center"
+                            android:singleLine="true"
+                            android:hint="1123560981"
+                            android:gravity="start"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_margin="3dp"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:inputType="textPassword"
+                            android:drawableEnd="@drawable/ic_lock_outline_black_24dp"
+                            android:hint="@string/pass"
+                            android:id="@+id/logpass"
+                            android:layout_margin="2dp"
+                            android:layout_height="wrap_content" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/login"
+                    android:id="@+id/signinbutton"
+                    android:padding="10dp"
+                    android:layout_marginBottom="6dp"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
+                    android:gravity="center"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:background="@drawable/signinshape"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content" />
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:indeterminateTint="@color/blue"
+                    android:visibility="gone"
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/loginprogressbar"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
+                    android:alpha=".2"
+                    android:background="@drawable/prgsign"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/newwretailer"
+                android:textColor="@color/white"
+                android:id="@+id/retailer_new"
+                android:fontFamily="serif"
+                android:layout_marginEnd="60dp"
+                android:layout_marginStart="60dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="@drawable/gradientblue2"
+                android:textSize="@dimen/medium"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/medium"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="@string/forgetpass"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

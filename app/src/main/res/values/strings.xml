@@ -1,0 +1,144 @@
+<resources>
+
+
+    //loginactivity
+    <string name="phonenum">Phone Number</string>
+    <string name="pass">Password</string>
+
+
+    <string name="app_name">Cashiery</string>
+    <string name="enterbar">Enter Barcode </string>
+    <string name="alertpay">please wait for the Merchant Terminal for verifying the Cart items</string>
+    <string name="login">Sign In</string>
+    <string name="pay">Pay</string>
+    <string name="camerausage">Please put Barcode in rectangle to scan it </string>
+    <string name="cancelcamera">Cancel</string>
+    <string name="done">Done</string>
+    <string name="scananother">Scan Another</string>
+    <string name="productaddedtocart">Product added to cart</string>
+    <string name="transfer">Transfer</string>
+    <string name="epbarcode">Enter Product Barcode</string>
+    <string name="ok"> OK</string>
+    <string name="hintemail">Enter Phone number </string>
+    <string name="hintpass">Password </string>
+    <string name="logout">Logout</string>
+    <string name="quedeleteitem">Delete item ?</string>
+    <string name="ansdeleteitem">Yes Delete</string>
+    <string name="paymentver">Payment Verification</string>
+    <string name="defayltproductname">Product</string>
+    <string name="submit">Submit</string>
+    <string name="chooseitemnu">Choose Items Numbers</string>
+    <string name="empty_email"> phone Number</string>
+    <string name="empty_pass"> Password</string>
+    <string name="items"> Items </string>
+    <string name="ordercustomer">Order Customer</string>
+    <string name="orderamount">Order Amount $</string>
+    <string name="totalsales">Total sales :</string>
+    <string name="removehistory">Remove History</string>
+    <string name="ordermenu">List of Orders</string>
+    <string name="payconfirmation">Do you want to delete them from inventory ?</string>
+    <string name="titlepayconf">Confirm deletion</string>
+    <string name="showdetails">Show Details</string>
+    <string name="hidedetails">Hide Details</string>
+    <string name="menusales">Sales List</string>
+    <string name="barcodreader">Barcode Reader</string>
+    <string name="knowapp">About App</string>
+    <string name="aboutus">About Us </string>
+    <string name="mycashier"> Cashier </string>
+    <string name="unitprice">Unit Price</string>
+    <string name="notrecorded">Not recorded in data base</string>
+    <string name="newwretailer">New Subscription</string>
+    <string name="forgetpass">Forgot Password ?</string>
+    <string name="havestore">Have A Store ?</string>
+    <string name="newstore">Create New Store</string>
+    <string name="enterstorenum">Enter Store ID</string>
+    <string name="entername">Admin Name</string>
+    <string name="enteremail"> Phone Number</string>
+    <string name="retypepass">Confirm Password</string>
+    <string name="entermoile"> Mobile Number</string>
+    <string name="level">Choose Level</string>
+    <string name="signup">Sign Up</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="phoneexample">1122330867</string>
+    <string name="next">Next</string>
+    <string name="currency">Choose Currency</string>
+    <string name="opentime">Open Time</string>
+    <string name="CloseTime">Close Time</string>
+    <string name="opendelivery">Open Delivery</string>
+    <string name="closedelivery">Close Delivery</string>
+    <string name="deliverytime">Delivery Time</string>
+    <string name="storedescription">Description</string>
+    <string name="address">Store Address</string>
+    <string name="Active">Active</string>
+    <string name="location">Location</string>
+    <string name="delcharge">Del Charge</string>
+    <string name="image">Image</string>
+    <string name="salesview">Sales View</string>
+    <string name="google_maps_key">AIzaSyAK2B6GG54HNY0JCa9H2G35vMG5YWh0kjs</string>
+
+    //validation
+    <string name="storeidV">Enter Store ID</string>
+    <string name="namV">Admin Name </string>
+    <string name="emailV">Enter Phone Number</string>
+    <string name="vaildemailV">Please Enter valid Email</string>
+    <string name="minumV">Minimum Length of password should be 6</string>
+    <string name="passV">Enter Password  </string>
+    <string name="passRV">Password Not Match</string>
+    <string name="mobileV">Enter Phone Number</string>
+    <string name="phoneV">Enter Phone Number</string>
+    <string name="delchargeV">Enter Delete Charge</string>
+    <string name="currencyV">Choose Currency </string>
+    <string name="opentV">Choose Open Time </string>
+    <string name="closetV">Choose Close Time</string>
+    <string name="opendV">Choose Open Delivery Time  </string>
+    <string name="closedV">Choose Close Delivery Time </string>
+    <string name="detimeV">Choose Delivery Time </string>
+    <string name="distuboterV">Choose Distributor </string>
+    <string name="subdistV">Choose Sub Distributor</string>
+    <string name="addressV">Enter Address</string>
+    <string name="imgV">Please Pust Image For Store</string>
+    <string name="storenam">Store Name</string>
+    <string name="subscripe">Subscription</string>
+    <string name="addphoto">Add Photo</string>
+
+
+    //store
+
+
+    <string-array name="levels">
+        <item>Choose Level</item>
+        <item>Retailer Admin </item>
+        <item>Retailer Super User</item>
+        <item>Retailer User </item>
+
+    </string-array>
+
+    <string-array name="distrbuter">
+        <item>Choose Distributor </item>
+        <item>distributor 1 </item>
+        <item>distributor 2</item>
+        <item>distributor 3 </item>
+
+    </string-array>
+
+    <string-array name="subdist">
+        <item>Choose Sub Distributor </item>
+        <item>Supplier 1 </item>
+        <item>Supplier 2</item>
+        <item>Supplier 3 </item>
+
+    </string-array>
+
+    <string-array name="salesway">
+        <item>Chosse View Way </item>
+        <item>Day sales </item>
+        <item>Week Sales</item>
+        <item>Month Sales </item>
+
+
+    </string-array>
+    <string name="title_activity_reigster_user">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

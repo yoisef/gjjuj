@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlealertdialog">22sp</dimen>
+    <dimen name="toolbarheight">50sp</dimen>
+    <dimen name="toolbartitle">20sp</dimen>
+    <dimen name="small">12sp</dimen>
+    <dimen name="medium">18sp</dimen>
+    <dimen name="large">22sp</dimen>
+    <dimen name="xlarge">24sp</dimen>
+    <dimen name="xx_large">26sp</dimen>
+    <dimen name="x_small">14sp</dimen>
+</resources>

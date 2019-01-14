@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "54262069579",
+    "firebase_url": "https://barcodeexample-41904.firebaseio.com",
+    "project_id": "barcodeexample-41904",
+    "storage_bucket": "barcodeexample-41904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54262069579:android:62cebf5ebee59852",
+        "android_client_info": {
+          "package_name": "automaticcallrecorder.phonerecorder.barcodeexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54262069579-dbi4filbv5dmifvs2jkihef42e8rdhja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "automaticcallrecorder.phonerecorder.barcodeexample",
+            "certificate_hash": "77c0aafe38c92b0f42316bb5a154b1cd8939573a"
+          }
+        },
+        {
+          "client_id": "54262069579-s1dii8l5qse7tts5ejsbqhtkcfrr21q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMr4Rqo7tgxSdim3t3o0HWOmvYuIQfVsk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54262069579-s1dii8l5qse7tts5ejsbqhtkcfrr21q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54262069579:android:01bc6778ca14d533",
+        "android_client_info": {
+          "package_name": "customer.barcode.barcodewebx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54262069579-uehnd2jir4njq9q4grd60tjok9psvgri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "customer.barcode.barcodewebx",
+            "certificate_hash": "77c0aafe38c92b0f42316bb5a154b1cd8939573a"
+          }
+        },
+        {
+          "client_id": "54262069579-s1dii8l5qse7tts5ejsbqhtkcfrr21q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMr4Rqo7tgxSdim3t3o0HWOmvYuIQfVsk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54262069579-s1dii8l5qse7tts5ejsbqhtkcfrr21q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

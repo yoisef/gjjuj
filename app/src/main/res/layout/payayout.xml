@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/paymentver"
+        android:textSize="@dimen/xlarge"
+
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/blue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/large"
+        android:padding="10dp"
+        android:text="@string/alertpay"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/large"
+        android:padding="10dp"
+        android:id="@+id/transfer"
+        android:text="@string/transfer"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

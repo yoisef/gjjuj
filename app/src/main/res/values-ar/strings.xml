@@ -1,0 +1,147 @@
+<resources>
+
+    <string name="phonenum">رقم الموبايل</string>
+    <string name="pass">كلمة السر</string>
+    <string name="app_name">كاشيري</string>
+    <string name="enterbar">أدخل الباركود </string>
+    <string name="alertpay">يرجى الانتظار لمركز التاجر للتحقق من عناصر سلة التسوق</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="pay">أدفع</string>
+    <string name="camerausage">من فضلك ضع الباركود في المستطيل ليتم تفحصه </string>
+    <string name="cancelcamera">إلغاء</string>
+    <string name="done">تم</string>
+    <string name="scananother">تفحص اخر</string>
+    <string name="productaddedtocart">المنتج اضيف الي الكارت</string>
+    <string name="transfer">نقل</string>
+    <string name="epbarcode">أدخل باركود المنتج</string>
+    <string name="ok">موافق</string>
+    <string name="hintemail"> رقم الهاتف </string>
+    <string name="hintpass">أدخل كلمة السر  </string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="quedeleteitem">أحذف المنتج</string>
+    <string name="ansdeleteitem">نعم احذفه</string>
+    <string name="paymentver">التحقق من الدفع</string>
+    <string name="defayltproductname">منتج</string>
+    <string name="submit">تأكيد</string>
+    <string name="chooseitemnu">أختر عدد الوحدات </string>
+    <string name="empty_email">أدخل رقم الهاتف </string>
+    <string name="empty_pass">أدخل كلمة المرور</string>
+    <string name="items"> الوحدات </string>
+    <string name="ordercustomer">طلب العميل </string>
+    <string name="orderamount">تكلفة الطلب $</string>
+    <string name="totalsales"> إجمالي المبيعات :</string>
+    <string name="removehistory">أحذف الذاكرة</string>
+    <string name="ordermenu">قائمة الطلبات</string>
+    <string name="payconfirmation">هل تريد حذفهم من المخزون ؟</string>
+    <string name="titlepayconf">تاكيد الحذف</string>
+    <string name="showdetails">عرض التفاصيل</string>
+    <string name="hidedetails">إخفاء التفاصيل </string>
+    <string name="menusales">قائمة المبيعات</string>
+    <string name="barcodreader">قارئ الباركود</string>
+    <string name="knowapp">تعرف التطبيق</string>
+    <string name="aboutus">معلومات عنا </string>
+    <string name="mycashier">كاشيري</string>
+    <string name="unitprice">سعر الوحدة</string>
+    <string name="notrecorded">غير مسجل في قاعدة البيانات</string>
+    <string name="newwretailer"> إشتراك جديد</string>
+    <string name="forgetpass">نسيت كلمة المرور</string>
+    <string name="havestore">لديك مخزن ؟</string>
+    <string name="newstore">إنشاء مخزن جديد</string>
+    <string name="enterstorenum">أدخل رقم المخزن</string>
+    <string name="entername">أسم المسئول</string>
+    <string name="enteremail">رقم الهاتف</string>
+
+    <string name="retypepass">تأكيد كلمة المرور</string>
+    <string name="entermoile">أدخل رقم الهاتف</string>
+    <string name="level">حدد المستوي</string>
+    <string name="signup">تسجيل </string>
+    <string name="phoneexample">1122330867</string>
+    <string name="vaildemailV">أدخل بريد إلكتروني صحيح</string>
+
+    <string name="phonenumber">رقم الهاتف</string>
+    <string name="next">التالي </string>
+    <string name="currency">اختر العملة</string>
+    <string name="opentime">وقت الفتح</string>
+    <string name="CloseTime">وقت الغلق</string>
+    <string name="opendelivery">بداية وقت التوصيل</string>
+    <string name="closedelivery">انتهاء وقت التوصيل</string>
+    <string name="deliverytime">وقت التوصيل</string>
+    <string name="storedescription">الوصف</string>
+    <string name="address">العنوان</string>
+    <string name="Active">نشط</string>
+    <string name="location">الموقع</string>
+    <string name="delcharge">قيمة الغاء الطلب</string>
+    <string name="image">صورة</string>
+    <string name="salesview">عرض المبيعات</string>
+    <string name="addphoto">أضف صورة </string>
+    <string name="google_maps_key">AIzaSyAK2B6GG54HNY0JCa9H2G35vMG5YWh0kjs</string>
+
+
+    //validation
+    <string name="storeidV"> رقم للمخزن</string>
+    <string name="namV">أدخل أسم المسئول</string>
+    <string name="emailV">أدخل رقم الهاتف</string>
+    <string name="minumV">يجب ان لا يقل كلمة السر عن 6 خانات</string>
+    <string name="passV">أدخل كلمة السر  </string>
+    <string name="passRV">كلمة السر غير متطابقة</string>
+    <string name="mobileV">رقم الهاتف فارغ</string>
+    <string name="phoneV">رقم التليفون فارغ</string>
+    <string name="delchargeV">أدخل قيمة إلغاء الطلب</string>
+    <string name="currencyV">أختر نوع العملة</string>
+    <string name="opentV">حدد وقت الفتح</string>
+    <string name="closetV">حدد وقت الغلق </string>
+    <string name="opendV">حدد بداية وقت التوصيل </string>
+    <string name="closedV">حدد انتهاء وقت التوصيل </string>
+    <string name="detimeV">حدد وقت التوصيل </string>
+    <string name="addressV">أدخل العنوان</string>
+    <string name="distuboterV">أختر الموزع</string>
+    <string name="subdistV">أختر الموزع الفرعي</string>
+    <string name="imgV">من فضلك ضع صورة للمخزن</string>
+    <string name="storenam">أسم المخزن</string>
+    <string name="subscripe">إشتراك</string>
+    <string name="title_activity_reigster_user">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+
+
+
+
+
+    <string-array name="levels">
+        <item>حدد المستوي </item>
+        <item>تاجر تجزئة مشرف </item>
+        <item>تاجر تجزئة مستخدم مميز</item>
+        <item>تاجر تجزئة مستخدم </item>
+
+    </string-array>
+
+    <string-array name="distrbuter">
+        <item>حدد الموزع </item>
+        <item>موزع 1 </item>
+        <item>موزع 2</item>
+        <item>مورع 3 </item>
+
+    </string-array>
+
+    <string-array name="subdist">
+        <item>حدد الموزع الفرعي </item>
+        <item>مورد 1 </item>
+        <item>مورد 2</item>
+        <item>مورد 3 </item>
+
+    </string-array>
+
+    <string-array name="salesway">
+        <item>حدد طريقة العرض </item>
+        <item>مبيعات اليوم </item>
+        <item>مبيعات الاسبوع</item>
+        <item>مبيعات الشهر </item>
+
+
+    </string-array>
+
+
+
+
+</resources>

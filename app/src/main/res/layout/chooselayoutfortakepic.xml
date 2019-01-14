@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:text="Choose Way"
+        android:textSize="@dimen/large"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/takcam"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:src="@drawable/mcamera"
+        android:layout_height="50dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Camera"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/large"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/takgalee"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/mygallery"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Gallery"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/large"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

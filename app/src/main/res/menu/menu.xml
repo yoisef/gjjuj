@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sales"
+        android:icon="@drawable/sales"
+        android:title="@string/menusales"
+        />
+    <item android:id="@+id/readbar"
+        android:icon="@drawable/barscanner"
+        android:title="@string/barcodreader"
+        />
+    <item android:id="@+id/enter_bar"
+        android:icon="@drawable/type"
+        android:title="@string/enterbar"
+        />
+    <item android:id="@+id/appknow"
+        android:icon="@drawable/app"
+        android:title="@string/knowapp"
+        />
+    <item android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="@string/aboutus"
+        />
+    <item android:id="@+id/signout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+        />
+
+</menu>

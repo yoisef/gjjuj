@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/appcolor"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/medium"
+                    android:id="@+id/storeidtext"
+                    android:layout_gravity="center"
+                    android:text="@string/storeidV"
+                    android:layout_height="wrap_content" />
+            <SearchView
+                android:layout_width="match_parent"
+                android:hint="@string/enterstorenum"
+                android:id="@+id/searchstore"
+                android:gravity="center"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/showstoredetails"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_shop"
+                    android:padding="15dp"
+                    android:id="@+id/storeimg"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/storenam"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:textSize="@dimen/medium"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:textSize="@dimen/medium"
+                    android:hint="@string/address"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_height="wrap_content" />
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    tools:context=".MapsActivity" />
+
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/Name_retailer"
+                android:textColorHint="@color/darkgray"
+                android:hint="@string/entername"
+                android:singleLine="true"
+                android:gravity="start"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="@dimen/medium"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/phonenumber"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <com.hbb20.CountryCodePicker
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    app:ccp_defaultNameCode="EG"
+                    app:ccp_showFullName="false"
+                    app:ccpDialog_showTitle="false"
+                    app:ccp_showNameCode="false"
+                    app:ccp_showFlag="false"
+                    android:id="@+id/ccp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/Phone_retailer"
+                    android:textColorHint="@color/darkgray"
+                    android:inputType="phone"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:hint="1123560981"
+                    android:gravity="start"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/passV"
+                    android:textSize="@dimen/medium"
+                    android:layout_gravity="start"
+
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/Pass_retailer"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:textColorHint="@color/darkgray"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/retypepass"
+                android:textSize="@dimen/medium"
+                android:layout_gravity="start"
+
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:textColorHint="@color/darkgray"
+                android:id="@+id/repass_retailer"
+                android:singleLine="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:id="@+id/registerr"
+        android:textSize="@dimen/large"
+        android:text="@string/subscripe"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+</LinearLayout>

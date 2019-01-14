@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+
+        <item name="colorPrimaryDark">@color/gray</item>
+
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="colorPrimary">@color/appcolor</item>
+        <item name="colorPrimaryDark">@color/gray</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="myswitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/green</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/black
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/gray
+        </item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:textSize">15sp</item><!-- text size in menu-->
+
+
+    </style>
+
+
+
+
+
+
+
+
+</resources>
